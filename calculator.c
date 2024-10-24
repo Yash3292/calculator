@@ -64,13 +64,12 @@ int main() {
             case '^':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("The square of %d is %d\n", a, a * a);
                 break;
             case '#':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
-                break;
+                printf("The cube of %d is %d\n", a, a * a * a);
             case 'i':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
